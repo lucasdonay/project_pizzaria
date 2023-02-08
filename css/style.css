@@ -1,3 +1,54 @@
-h1 {
-  color: blue;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: none;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+}
+
+/* NAV */
+
+#brand-logo {
+  width: 50px;
+}
+
+.navbar.navbar-expand-lg {
+  background-color: #000;
+  font-weight: bold;
+  padding: 20px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 2rem;
+  
+}
+
+nav ul li a:hover {
+  color: rgb(245, 255, 99);
+  font-size: 2rem;
+}
+
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  background-color: #000;
+  height: 130px;
+  position: fixed;
+  color: white;
+  display: flex;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 2rem;
 }

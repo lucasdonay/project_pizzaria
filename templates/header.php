@@ -12,10 +12,24 @@
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- App CSS -->
-<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="../css/style.css">
 
 <body>
 
   <header>
-    <p>Cabeçalho</p>
+    <nav class="navbar navbar-expand-lg">
+
+      <a href="" class="navbar-brand">
+        <img src="../img/pizza.svg" alt="Pizzaria" id="brand-logo">
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a href="index.php" class="nav-link">Peca suas Pizzas</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
   </header>
