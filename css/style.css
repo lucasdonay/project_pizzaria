@@ -5,10 +5,13 @@
   text-transform: none;
 }
 
-html,body {
+html {
+  font-size: 62.5%;
+}
+
+body {
   height: 100%;
   width: 100%;
-  font-size: 62.5%;
 }
 
 /* NAV */
@@ -26,13 +29,126 @@ html,body {
 nav ul li a {
   color: white;
   font-size: 2rem;
-  
+
 }
 
 nav ul li a:hover {
   color: rgb(245, 255, 99);
   font-size: 2rem;
 }
+
+/* ALERT */
+
+.alert {
+  border-radius: 0;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.alert.alert-success {
+  border: 2px solid #155724;
+}
+
+.alert.alert-warning {
+  border: 2px solid #856404;
+}
+
+.alert p {
+  margin-bottom: 0;
+}
+
+/* HOME */
+
+.main-banner {
+  background-image: url('../img/pizza-banner.jpg');
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-banner h1 {
+  color: aliceblue;
+  text-align: center;
+  padding: 30px;
+  background-color: #000;
+  margin: 22px auto;
+  text-transform: uppercase;
+  width: 450px;
+  font-size: 4rem;
+}
+
+.main-container {
+  padding: 57px 0;
+  text-align: center;
+  min-height: 50px;
+}
+
+.main-container h2 {
+  margin-bottom: 30px;
+  font-size: 3rem;
+}
+
+.row {
+  margin: 0;
+}
+
+#pizza-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-bottom: 14rem;
+  overflow-x: hidden;
+}
+
+
+#pizza-form::-webkit-scrollbar {
+  display: none;
+  border: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#pizza-form:not(.btn.btn-primary) {
+  text-align: left;
+}
+
+#pizza-form label {
+  font-weight: bold;
+  font-size: 2rem;
+  overflow-x: hidden;
+}
+
+#pizza-form option,
+#pizza-form select {
+  font-size: 2rem;
+  overflow-x: hidden;
+}
+
+.btn.btn-primary {
+  background-color: #000;
+  border: none;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 2rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn.btn-primary:hover {
+  color: rgb(245, 255, 99);
+}
+
+
 
 
 /* FOOTER */

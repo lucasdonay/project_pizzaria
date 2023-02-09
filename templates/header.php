@@ -33,3 +33,6 @@
 
     </nav>
   </header>
+  <div class="alert alert-success">
+    <p>Pedido Feito com Sucesso!</p>
+  </div>
