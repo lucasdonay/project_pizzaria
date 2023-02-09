@@ -49,11 +49,15 @@ nav ul li a:hover {
 }
 
 .alert.alert-success {
-  border: 2px solid #155724;
+  border: 2px solid #008000;
+  background-color: #008000;
+  color: whitesmoke;
 }
 
 .alert.alert-warning {
-  border: 2px solid #856404;
+  border: 2px solid #ff0000;
+  background-color: #ff0000;
+  color: whitesmoke;
 }
 
 .alert p {
@@ -104,16 +108,8 @@ nav ul li a:hover {
   max-width: 500px;
   margin: 0 auto;
   padding-bottom: 14rem;
-  overflow-x: hidden;
-}
+ }
 
-
-#pizza-form::-webkit-scrollbar {
-  display: none;
-  border: none;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
 
 #pizza-form:not(.btn.btn-primary) {
   text-align: left;
@@ -122,13 +118,11 @@ nav ul li a:hover {
 #pizza-form label {
   font-weight: bold;
   font-size: 2rem;
-  overflow-x: hidden;
 }
 
 #pizza-form option,
 #pizza-form select {
   font-size: 2rem;
-  overflow-x: hidden;
 }
 
 .btn.btn-primary {
@@ -147,9 +141,6 @@ nav ul li a:hover {
 .btn.btn-primary:hover {
   color: rgb(245, 255, 99);
 }
-
-
-
 
 /* FOOTER */
 
