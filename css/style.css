@@ -108,7 +108,7 @@ nav ul li a:hover {
   max-width: 500px;
   margin: 0 auto;
   padding-bottom: 14rem;
- }
+}
 
 
 #pizza-form:not(.btn.btn-primary) {
@@ -140,6 +140,43 @@ nav ul li a:hover {
 
 .btn.btn-primary:hover {
   color: rgb(245, 255, 99);
+}
+
+
+/* DASHBOARD */
+
+.delete-btn,
+.update-btn {
+  border: none;
+  background: transparent;
+}
+
+.delete-btn {
+  padding-top: 7px;
+}
+
+.delete-btn i {
+  color: #721c24;
+  font-size: 14px;
+}
+
+.update-btn i {
+  color: #004085;
+  padding-left: 20px;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.status-input {
+  width: 55%;
+}
+
+.table ul {
+  text-align: left;
 }
 
 /* FOOTER */
