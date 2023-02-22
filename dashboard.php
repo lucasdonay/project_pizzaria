@@ -31,7 +31,6 @@ include_once("templates/header.php");
                     <input type="hidden" name="id" value="1">
                     <select name="status" class="form-control status-input">
                       <option value="">Entrega</option>
-                      <option value="">Entrega 2</option>
                     </select>
                     <button type="submit" class="update-btn">
                       <i class="fas fa-sync-alt"></i>

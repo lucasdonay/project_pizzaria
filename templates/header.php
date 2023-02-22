@@ -1,15 +1,15 @@
 <?php
 
 include("process/conn.php");
-    $msg = "";
+$msg = "";
 
-    if(isset($_SESSION["msg"])) {
-        $msg = $_SESSION["msg"];
-        $status = $_SESSION["status"];
+if (isset($_SESSION["msg"])) {
+  $msg = $_SESSION["msg"];
+  $status = $_SESSION["status"];
 
-        $_SESSION["msg"] = "";
-        $_SESSION["status"] = "";
-    }
+  $_SESSION["msg"] = "";
+  $_SESSION["status"] = "";
+}
 ?>
 
 
@@ -49,8 +49,8 @@ include("process/conn.php");
     </nav>
   </header>
 
-  <?php if($msg != ""): ?>
-  <div class="alert alert-<?= $status?>">
-    <p><?= $msg ?></p>
-  </div>
-<?php endif; ?>
+  <?php if ($msg != "") : ?>
+    <div class="alert alert-<?= $status ?>">
+      <p><?= $msg ?></p>
+    </div>
+  <?php endif; ?>
